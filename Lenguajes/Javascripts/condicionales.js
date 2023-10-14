@@ -1,10 +1,12 @@
 
 
-let valor = "legacy"
+let valor = "lega"
 
 // si se cumple la condicion se ejecuta lo que esta dentro del if
 if (valor === 'legacy') {  // en condicional siempore se usado doble o triple '=' para comparacion
   console.log('Hola mundo');
+} else if(valor === 'lega'){
+  console.log('Hola mundo2');
 } else {  // si no se cumple lo del if, esecuta lo que esta en el else
   console.log('entro al otro');
 }
@@ -17,13 +19,17 @@ var tipo = ( simbolo == 2 ) ? "almuerzo" : "cena";
 console.log(tipo);
 
 
-var leyenda = 1
+var leyenda = "olo"
 switch (leyenda) {
-  case 1:
+  case "ola":
     // en caso leyenda valga 1, se ejecuta lo que esta dentro
     console.log("primero");
     break;
-  case 2:
+  case "olo":
+    console.log("segundo");
+    // en caso leyenda valga 2, se ejecuta lo que esta dentro
+    break;
+  case "olu":
     console.log("segundo");
     // en caso leyenda valga 2, se ejecuta lo que esta dentro
     break;
