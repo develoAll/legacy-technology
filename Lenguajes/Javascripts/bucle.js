@@ -9,12 +9,12 @@ for (let index = 0; index < valor.length ; index++) {
 /* recorre todo tu array uno por uno, 
 y le asigna una variable que reemplaza cada 
 valor dentro del array*/
-valor.forEach(ot => {
-  console.log(ot);
+valor.forEach(element => {
+  console.log(element);
 });
 
 /* primero se ejecuta lo que esta dentro {} y luego
-realiza la ocndicion, si es verdadero sigue ejecutandose*/
+realiza la condicion, si es verdadero sigue ejecutandose*/
 do {
   condicion++
   console.log(condicion);
