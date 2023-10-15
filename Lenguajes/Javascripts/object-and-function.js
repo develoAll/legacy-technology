@@ -3,42 +3,43 @@ let otros = ["asd","asd",2]
 let toyota = {
   color: "negro",
   llantas: 4,
-  ano: 2019
+  anillo: 2019
 }
 
-// console.log(carro.llantas);
-// console.log(carro["llantas"]);
+// console.log(toyota.llantas);
+// console.log(toyota["llantas"]);
 
 // DECLARADA
-let declarada = summar(2,3)
-function summar(one, two){
-  return one + two
+let declarada = summar(4,5)
+function summar(a , b){
+  return a + b
 }
 
 // EXPRESADA
-const expresada = function summar(one, two){
- return one + two
+let expresada = function restar(a, b){
+ return a - b
 }
+console.log(expresada(6,3));
 
-function nombre(){
-console.log("hola mundo");
-}
+// function nombre(){
+// console.log("hola mundo");
+// }
 
 // console.log(declarada);
 // console.log(expresada(3,4));
 
 
 // juntados tipos de datos
-let mundos = [
-  {
-    nombre: "tierra",
-    color: "verde",
-    habitantes: 123
-  },{
-    nombre: "venus",
-    color: "morado",
-    habitantes: 2
-  }
-]
+// let mundos = [
+//   {
+//     nombre: "tierra",
+//     color: "verde",
+//     habitantes: 123
+//   },{
+//     nombre: "venus",
+//     color: "morado",
+//     habitantes: 2
+//   }
+// ]
 
-console.log(mundos);
+// console.log(mundos);

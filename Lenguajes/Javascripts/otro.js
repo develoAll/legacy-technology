@@ -1,9 +1,12 @@
 
+// let primero = "uno"
+// var segundo = "dos"
 
-const objeto = {
-  nombre: "alejandro"
+var cuarto = "uno"
+
+if (1) {
+
+  
 }
 
-objeto.edad = 14
-
-console.log(objeto);
+console.log(window);
