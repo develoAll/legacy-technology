@@ -26,31 +26,70 @@ const resultado = document.getElementById('resultado');
 //   return element.length > 5
 // })
 
-let data = [
+let personas = [
   {
-      id: 2,
-      descriptionParameter: "Anual",
-      value: "4",
+    pais: "Peru",
+    extranjero: true,
+    datos: {
+      nombre: "alejandro",
+      edad: 30
+    }
   },
   {
-      id: 5,
-      descriptionParameter: "Mensual",
-      value: "1",
+    pais: "Peru",
+    extranjero: true,
+    datos: {
+      nombre: "renzo",
+      edad: 17
+    }
   },
   {
-      id: 7,
-      descriptionParameter: "Semestral",
-      value: "3",
+    pais: "Peru",
+    extranjero: false,
+    datos: {
+      nombre: "kevin",
+      edad: 28
+    }
   },
   {
-      id: 6,
-      descriptionParameter: "Trimestral",
-      value: "2",
+    pais: "Peru",
+    extranjero: true,
+    datos: {
+      nombre: "juan",
+      edad: 22
+    }
+  },
+  {
+    pais: "Peru",
+    extranjero: false,
+    datos: {
+      nombre: "gilbert",
+      edad: 15
+    }
+  },
+  {
+    pais: "Peru",
+    extranjero: true,
+    datos: {
+      nombre: "erick",
+      edad: 21
+    }
+  },
+  {
+    pais: "Peru",
+    extranjero: false,
+    datos: {
+      nombre: "pepe",
+      edad: 15
+    }
   }
 ]
 
-let opciones = data.map(ele =>{
-  return ele.descriptionParameter
+
+let opciones = personas.filter( ele => {
+  return ele.datos.edad > 17 && ele.extranjero == true
+}).map(ul => {
+  return ul.pais + " - " + ul.datos.nombre
 })
 
 // no tocar
